@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const TextBox = () => {
+const Analyzer = () => {
     const [text, setText] = useState('');
     const textRef = useRef(null);
 
@@ -90,7 +90,7 @@ const TextBox = () => {
 
     return (
         <div className="container">
-            <div className="textContent">
+            <div className="appContent">
                 <div className="title">
                     <h1>Text Analyzer</h1>
                 </div>
@@ -121,4 +121,4 @@ const TextBox = () => {
     );
 }
 
-export default TextBox;
+export default Analyzer;

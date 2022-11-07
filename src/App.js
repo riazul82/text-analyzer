@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import TextBox from './TextBox';
+import Analyzer from './Analyzer';
 
 const App = () => {
     return (
       <div>
-        <TextBox />
+        <Analyzer />
       </div>
     );
 }
